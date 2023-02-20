@@ -1,21 +1,19 @@
 // ==UserScript==
-// @name           button_testing
+// @name           splice-buttons
 // @namespace      hb
 // @match          *://*splice.com/sounds/packs/*
-// @match          file:///*
+// @match          *://*/*
 // @grant          none
-// @version        0.1
+// @version        0.2
 // @author         @hexbenjamin
 // @description    download stuff
-// @resource       spliceCss splice.css
+// @resource       spliceCss https://hexbenjamin.github.io/splice-buttons/css/splice.css
 // @grant          GM.addStyle
-// @grant          GM.getResourceUrl
-// @grant          GM_getResourceFile
+// @grant          GM_getResourceText
 // ==/UserScript==
 
 // [- styling]
-let hbStyles = GM.addStyle(GM_getResourceFile(spliceCss));
-
+let hbStyles = GM.addStyle(GM_getResourceText("spliceCss"));
 
 // [> create empty div for button]
 let zNode = document.createElement("div");

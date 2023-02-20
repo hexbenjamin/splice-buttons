@@ -8,28 +8,22 @@
 }
 
 .hb-btn {
-  background: hsla(var(--hexb-btn-hue), var(--hexb-btn-bg0), 0.36);
-  background-image: -webkit-linear-gradient(
+  background-image: --moz-linear-gradient(
     top,
     hsla(var(--hexb-btn-hue), var(--hexb-btn-bg0), 0.36),
     hsla(var(--hexb-btn-hue), var(--hexb-btn-bg1), 0.27)
   );
-  background-image: -moz-linear-gradient(
+  background-image: --ms-linear-gradient(
     top,
     hsla(var(--hexb-btn-hue), var(--hexb-btn-bg0), 0.36),
     hsla(var(--hexb-btn-hue), var(--hexb-btn-bg1), 0.27)
   );
-  background-image: -ms-linear-gradient(
+  background-image: --o-linear-gradient(
     top,
     hsla(var(--hexb-btn-hue), var(--hexb-btn-bg0), 0.36),
     hsla(var(--hexb-btn-hue), var(--hexb-btn-bg1), 0.27)
   );
-  background-image: -o-linear-gradient(
-    top,
-    hsla(var(--hexb-btn-hue), var(--hexb-btn-bg0), 0.36),
-    hsla(var(--hexb-btn-hue), var(--hexb-btn-bg1), 0.27)
-  );
-  background-image: -webkit-gradient(
+  background-image: --webkit-gradient(
     to bottom,
     hsla(var(--hexb-btn-hue), var(--hexb-btn-bg0), 0.36),
     hsla(var(--hexb-btn-hue), var(--hexb-btn-bg1), 0.27)
@@ -55,27 +49,27 @@
 .hb-btn:hover {
   border: solid hsla(var(--hexb-btn-hue), var(--hexb-btn-fg), 0.92) 3px;
   background: hsla(var(--hexb-btn-hue), var(--hexb-btn-hover-bg0), 0.69);
-  background-image: -webkit-linear-gradient(
+  background-image: --webkit-linear-gradient(
     top,
     hsla(var(--hexb-btn-hue), var(--hexb-btn-hover-bg0), 0.69),
     hsla(var(--hexb-btn-hue), var(--hexb-btn-hover-bg1), 0.69)
   );
-  background-image: -moz-linear-gradient(
+  background-image: --moz-linear-gradient(
     top,
     hsla(var(--hexb-btn-hue), var(--hexb-btn-hover-bg0), 0.69),
     hsla(var(--hexb-btn-hue), var(--hexb-btn-hover-bg1), 0.69)
   );
-  background-image: -ms-linear-gradient(
+  background-image: --ms-linear-gradient(
     top,
     hsla(var(--hexb-btn-hue), var(--hexb-btn-hover-bg0), 0.69),
     hsla(var(--hexb-btn-hue), var(--hexb-btn-hover-bg1), 0.69)
   );
-  background-image: -o-linear-gradient(
+  background-image: --o-linear-gradient(
     top,
     hsla(var(--hexb-btn-hue), var(--hexb-btn-hover-bg0), 0.69),
     hsla(var(--hexb-btn-hue), var(--hexb-btn-hover-bg1), 0.69)
   );
-  background-image: -webkit-gradient(
+  background-image: --webkit-gradient(
     to bottom,
     hsla(var(--hexb-btn-hue), var(--hexb-btn-hover-bg0), 0.69),
     hsla(var(--hexb-btn-hue), var(--hexb-btn-hover-bg1), 0.69)
