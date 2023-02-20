@@ -2,18 +2,18 @@
 // @name           splice-buttons
 // @namespace      hb
 // @match          *://*splice.com/sounds/packs/*
-// @match          *://*/*
 // @grant          none
 // @version        0.2
 // @author         @hexbenjamin
 // @description    download stuff
-// @resource       spliceCss https://hexbenjamin.github.io/splice-buttons/css/splice.css
+// @resource       spliceCss ..\css\splice.css
 // @grant          GM.addStyle
 // @grant          GM_getResourceText
 // ==/UserScript==
 
 // [- styling]
 let hbStyles = GM.addStyle(GM_getResourceText("spliceCss"));
+
 
 // [> create empty div for button]
 let zNode = document.createElement("div");
